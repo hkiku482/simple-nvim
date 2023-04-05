@@ -11,8 +11,6 @@ return require('packer').startup(function(use)
             })
         end
     })
-    use "nvim-neo-tree/neo-tree.nvim"
-    use "zsugabubus/crazy8.nvim"
     use "lukas-reineke/indent-blankline.nvim"
     use "windwp/nvim-autopairs"
 end)
